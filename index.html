@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Dice Game ⚄</h1>
+    <div class="button-container">
+      <button class="rollMe">Roll</button>
+      <button class="start">Start</button>
+    </div>
+    <div class="name-container">
+      <p class="player1Name">Player 1</p>
+      <p>Roll#<span class="rollCount"></span></p>
+      <p class="player2Name">Player 2</p>
+    </div>
+    <div class="container">
+      <div class="dice">
+        <img class="img1" src="images/dice6.png" alt="Dice 1" />
+      </div>
+
+      <div class="dice">
+        <img class="img2" src="images/dice6.png" alt="Dice 2" />
+      </div>
+    </div>
+    <div class="score-container">
+      <p>Score: <span class="player1Score"></span></p>
+      <p>Draw: <span class="drawScore"></span></p>
+      <p>Score: <span class="player2Score"></span></p>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+    <footer>www 🎲 chill-dev 🎲 com</footer>
+  </body>
+</html>
